@@ -17,60 +17,60 @@ jobs:
       matrix:
         include:
 
-          # 4.0.3 on Debian 13
-          - ruby-version:   "4.0.3"
+          # 4.0.4 on Debian 13
+          - ruby-version:   "4.0.4"
             ruby-variant:   "jemalloc"
             debian-image:   "trixie"
             debian-version: "13"
             aliases: |
               quay.io/evl.ms/fullstaq-ruby:4.0-jemalloc
-              quay.io/evl.ms/fullstaq-ruby:4.0.3-jemalloc
+              quay.io/evl.ms/fullstaq-ruby:4.0.4-jemalloc
               quay.io/evl.ms/fullstaq-ruby:4.0-jemalloc-trixie
-          - ruby-version:   "4.0.3"
+          - ruby-version:   "4.0.4"
             ruby-variant:   "jemalloc"
             debian-image:   "trixie-slim"
             debian-version: "13"
             aliases: |
               quay.io/evl.ms/fullstaq-ruby:4.0-jemalloc-slim
-              quay.io/evl.ms/fullstaq-ruby:4.0.3-jemalloc-slim
+              quay.io/evl.ms/fullstaq-ruby:4.0.4-jemalloc-slim
               quay.io/evl.ms/fullstaq-ruby:4.0-jemalloc-trixie-slim
-          - ruby-version:   "4.0.3"
+          - ruby-version:   "4.0.4"
             ruby-variant:   "malloctrim"
             debian-image:   "trixie"
             debian-version: "13"
             aliases: |
               quay.io/evl.ms/fullstaq-ruby:4.0-malloctrim
-              quay.io/evl.ms/fullstaq-ruby:4.0.3-malloctrim
+              quay.io/evl.ms/fullstaq-ruby:4.0.4-malloctrim
               quay.io/evl.ms/fullstaq-ruby:4.0-malloctrim-trixie
-          - ruby-version:   "4.0.3"
+          - ruby-version:   "4.0.4"
             ruby-variant:   "malloctrim"
             debian-image:   "trixie-slim"
             debian-version: "13"
             aliases: |
               quay.io/evl.ms/fullstaq-ruby:4.0-malloctrim-slim
-              quay.io/evl.ms/fullstaq-ruby:4.0.3-malloctrim-slim
+              quay.io/evl.ms/fullstaq-ruby:4.0.4-malloctrim-slim
               quay.io/evl.ms/fullstaq-ruby:4.0-malloctrim-trixie-slim
 
-          # 4.0.3 on Debian 12
-          - ruby-version:   "4.0.3"
+          # 4.0.4 on Debian 12
+          - ruby-version:   "4.0.4"
             ruby-variant:   "jemalloc"
             debian-image:   "bookworm"
             debian-version: "12"
             aliases: |
               quay.io/evl.ms/fullstaq-ruby:4.0-jemalloc-bookworm
-          - ruby-version:   "4.0.3"
+          - ruby-version:   "4.0.4"
             ruby-variant:   "jemalloc"
             debian-image:   "bookworm-slim"
             debian-version: "12"
             aliases: |
               quay.io/evl.ms/fullstaq-ruby:4.0-jemalloc-bookworm-slim
-          - ruby-version:   "4.0.3"
+          - ruby-version:   "4.0.4"
             ruby-variant:   "malloctrim"
             debian-image:   "bookworm"
             debian-version: "12"
             aliases: |
               quay.io/evl.ms/fullstaq-ruby:4.0-malloctrim-bookworm
-          - ruby-version:   "4.0.3"
+          - ruby-version:   "4.0.4"
             ruby-variant:   "malloctrim"
             debian-image:   "bookworm-slim"
             debian-version: "12"
